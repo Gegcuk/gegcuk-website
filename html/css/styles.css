@@ -1,0 +1,126 @@
+/* Style for active navigation link */
+nav a.active {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Project list styles */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+.project-item a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+.profile-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+/* Header and Hero Section */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1600x600') center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+}
+/* Navigation Bar */
+nav {
+    background-color: #34495e;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+nav a {
+    float: left;
+    display: block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+nav a:hover {
+    background-color: #1abc9c;
+}
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #34495e;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+}
+.about-me {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+/* Contact Information */
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-info li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+.contact-info a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
