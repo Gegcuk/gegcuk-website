@@ -1,0 +1,63 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Aleksei Lazunin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Contact Me</h1>
+    </div>
+</header>
+
+<nav>
+    <div class="container">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html" class="active">Contact</a>
+    </div>
+</nav>
+
+<main>
+    <div class="container">
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like to collaborate on a project, feel free to reach out!</p>
+            <ul class="contact-info">
+                <li><strong>Phone:</strong> +44 7552 722896</li>
+                <li><strong>Email:</strong> <a href="mailto:gegcuk@gmail.com">gegcuk@gmail.com</a></li>
+                <li><strong>Location:</strong> London, UK</li>
+            </ul>
+
+            <form action="mailto:gegcuk@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="6" required></textarea><br><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Aleksei Lazunin</p>
+    </div>
+</footer>
+
+</body>
+</html>
