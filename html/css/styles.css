@@ -230,3 +230,72 @@ footer {
 .download-btn:active {
     background-color: #004080;
 }
+
+/* Project Details Section */
+.project-details {
+    margin-top: 15px;
+}
+
+.project-details h4 {
+    margin-bottom: 10px;
+    color: #0a74da;
+}
+
+.project-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.project-details ul li {
+    margin-bottom: 5px;
+}
+
+/* Toggle Button */
+.toggle-details {
+    background-color: transparent;
+    border: none;
+    color: #0a74da;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.toggle-details .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-right: 5px;
+}
+
+.toggle-details.expanded .arrow {
+    transform: rotate(90deg); /* Rotate arrow when expanded */
+}
+
+/* Collapsible Project Details */
+.project-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.project-details.expanded {
+    max-height: 1000px; /* A high value to allow for content expansion */
+    margin-top: 15px;
+}
+
+.project-details h4 {
+    margin-bottom: 10px;
+    color: #0a74da;
+}
+
+.project-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.project-details ul li {
+    margin-bottom: 5px;
+}
