@@ -1,88 +1,137 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <!-- Google tag (gtag.js) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projects - Aleksei Lazunin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Aleksei Lazunin</h1>
+            <p>Senior Product Manager Professional</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <!-- Project Item Start -->
+                <div class="project-item">
+                    <h3>
+                        <a href="https://github.com/Gegcuk/2Dgame" target="_blank">Blue Knight Adventure</a>
+                    </h3>
+                    <p>A 2D tile-based RPG built with Java, featuring dynamic gameplay and interactive events.</p>
+                    <button class="toggle-details">
+                        <span class="arrow">&#9654;</span>
+                        Expand
+                    </button>
+                    <div class="project-details">
+                        <h4>Technology Stack:</h4>
+                        <ul>
+                            <li>Programming Language: Java</li>
+                            <li>Libraries/Frameworks: Swing, AWT</li>
+                            <li>Development Tools: IntelliJ IDEA, Git</li>
+                        </ul>
+                        <h4>Design Patterns:</h4>
+                        <ul>
+                            <li>Singleton</li>
+                            <li>Observer</li>
+                            <li>Factory Method</li>
+                        </ul>
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Dynamic gameplay with interactive events</li>
+                            <li>Configurable object system</li>
+                            <li>Tile-based map rendering</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Project Item End -->
+                <!-- Place for other projects -->
+                <div class="project-item">
+                    <h3>
+                        <a href="https://github.com/Gegcuk/java-language-interpreter" target="_blank">Lox Interpreter in
+                            Java</a>
+                    </h3>
+                    <p>An implementation of the Lox programming language interpreter in Java, focusing on language
+                        design and interpreter construction.</p>
+                    <button class="toggle-details">
+                        <span class="arrow">&#9654;</span>
+                        Expand
+                    </button>
+                    <div class="project-details">
+                        <h4>Technology Stack:</h4>
+                        <ul>
+                            <li>Programming Language: Java</li>
+                            <li>Development Tools: IntelliJ IDEA, Git</li>
+                        </ul>
+                        <h4>Design Patterns and Concepts:</h4>
+                        <ul>
+                            <li>Visitor Pattern for AST traversal</li>
+                            <li>Interpreter Pattern</li>
+                            <li>Recursive Descent Parsing</li>
+                            <li>Tree-Walk Interpreter</li>
+                        </ul>
+                        <h4>Key Concepts Implemented:</h4>
+                        <ul>
+                            <li>Lexical Analysis (Scanning)</li>
+                            <li>Syntax Analysis (Parsing)</li>
+                            <li>Abstract Syntax Tree (AST) Construction</li>
+                            <li>Expression and Statement Evaluation</li>
+                            <li>Variable and Scope Management</li>
+                            <li>First-class Functions and Closures</li>
+                            <li>Class and Inheritance Implementation</li>
+                            <li>Error Handling and Reporting</li>
+                        </ul>
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Full implementation of the Lox programming language</li>
+                            <li>Support for variables, control flow statements (if, while, for)</li>
+                            <li>Functions, including anonymous functions and closures</li>
+                            <li>Object-oriented features: classes, methods, inheritance</li>
+                            <li>Dynamic typing and runtime type checking</li>
+                            <li>Interactive prompt (REPL) and script execution</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Project Item End -->
+                <!-- Place for other projects -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aleksei Lazunin</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5PJ9CN96T"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-N5PJ9CN96T');
+        gtag('config', 'G-N5PJ9CN96T');
     </script>
-        <meta charset="UTF-8">
-        <title>Projects - Aleksei Lazunin</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
+</body>
 
-        <header>
-            <div class="container">
-                <h1>Aleksei Lazunin</h1>
-                <p>Senior Product Manager Professional</p>
-            </div>
-        </header>
-        
-        <nav>
-            <div class="container">
-                <a href="index.html">Home</a>
-                <a href="projects.html" class="active">Projects</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-        
-        <main>
-            <div class="container">
-                <h2>Projects</h2>
-                    <div class="project-list">
-                        <!-- Project Item Start -->
-                        <div class="project-item">
-                            <h3>
-                                <a href="https://github.com/Gegcuk/2Dgame" target="_blank">Blue Knight Adventure</a>
-                            </h3>
-                            <p>A 2D tile-based RPG built with Java, featuring dynamic gameplay and interactive events.</p>
-                            <!-- Collapsible Section Trigger -->
-                            <button class="toggle-details">
-                                <span class="arrow">&#9654;</span> <!-- Right-pointing arrow -->
-                                Expand
-                            </button>
-                            <!-- Collapsible Project Details -->
-                            <div class="project-details">
-                                <h4>Technology Stack:</h4>
-                                <ul>
-                                    <li>Programming Language: Java</li>
-                                    <li>Libraries/Frameworks: Swing, AWT</li>
-                                    <li>Development Tools: IntelliJ IDEA, Git</li>
-                                </ul>
-                                <h4>Design Patterns:</h4>
-                                <ul>
-                                    <li>Singleton</li>
-                                    <li>Observer</li>
-                                    <li>Factory Method</li>
-                                </ul>
-                                <h4>Features:</h4>
-                                <ul>
-                                    <li>Dynamic gameplay with interactive events</li>
-                                    <li>Configurable object system</li>
-                                    <li>Tile-based map rendering</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    <!-- Place for other projects -->
-                </div>
-            </div>
-        </main>
-        
-        <footer>
-            <div class="container">
-                <p>&copy; 2024 Aleksei Lazunin</p>
-            </div>
-        </footer>
-        <script src="js/scripts.js"></script>
-        </body>
-    </html>
+</html>

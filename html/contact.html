@@ -1,16 +1,8 @@
 <!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N5PJ9CN96T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-N5PJ9CN96T');
-</script>
+<head>
     <meta charset="UTF-8">
     <title>Contact - Aleksei Lazunin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,55 +11,66 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 
-<header>
-    <div class="container">
-        <h1>Contact Me</h1>
-    </div>
-</header>
+    <header>
+        <div class="container">
+            <h1>Contact Me</h1>
+        </div>
+    </header>
 
-<nav>
-    <div class="container">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html" class="active">Contact</a>
-    </div>
-</nav>
+    <nav>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
 
-<main>
-    <div class="container">
-        <section class="contact-section">
-            <h2>Get in Touch</h2>
-            <p>If you have any questions or would like to collaborate on a project, feel free to reach out!</p>
-            <ul class="contact-info">
-                <li><strong>Phone:</strong> +44 7552 722896</li>
-                <li><strong>Email:</strong> <a href="mailto:gegcuk@gmail.com">gegcuk@gmail.com</a></li>
-                <li><strong>Location:</strong> London, UK</li>
-            </ul>
+    <main>
+        <div class="container">
+            <section class="contact-section">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions or would like to collaborate on a project, feel free to reach out!</p>
+                <ul class="contact-info">
+                    <li><strong>Phone:</strong> +44 7552 722896</li>
+                    <li><strong>Email:</strong> <a href="mailto:gegcuk@gmail.com">gegcuk@gmail.com</a></li>
+                    <li><strong>Location:</strong> London, UK</li>
+                </ul>
 
-            <form action="mailto:gegcuk@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-                
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="6" required></textarea><br><br>
-                
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </div>
-</main>
+                <form action="mailto:gegcuk@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2024 Aleksei Lazunin</p>
-    </div>
-</footer>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
 
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aleksei Lazunin</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5PJ9CN96T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N5PJ9CN96T');
+    </script>
 </body>
+
 </html>
