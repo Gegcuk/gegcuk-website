@@ -30,5 +30,5 @@ This is the personal portfolio website of **Aleksei Lazunin**, showcasing profes
 - **Phone**: +44 7552 722896
 - **Location**: London, UK
 - **GitHub**: [Gegcuk](https://github.com/Gegcuk)
-- **LinkedIn**: [Aleksei Lazunin](https://www.linkedin.com/in/aleksei-lazunin)
+- **LinkedIn**: [Aleksei Lazunin](https://www.linkedin.com/in/alekseylazunin/)
 
